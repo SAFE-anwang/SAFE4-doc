@@ -1,5 +1,5 @@
 # 安网（SAFE）4
-### Next generation of SAFE blockchain network, aiming at secure payment and privacy protection.
+### Next generation of SAFE blockchain network, aiming at large-scale, secure payment and privacy protection. 下一代大规模安全支付和隐私计算的SAFE区块链网络。
 
 1项目简介
 ---------------------
