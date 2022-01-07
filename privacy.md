@@ -10,17 +10,17 @@
   r 是一个私钥，用作致盲因子， G 是一个椭圆曲线点，他们的乘积 r*G 是 r 在 G 上的公钥。v 是输入金额或输出金额，H 是另一个椭圆曲线点。v 和 r 都不能被推导出来，从而利用了椭圆曲线密码学的基本属性。 r * G + v * H被称为 Pedersen 承诺。
 - MimbleWimble交易原理，A要发送给B金额v，输入i，找零c，则:
 
->	i = v + c =>  i - v - c = 0
+		i = v + c =>  i - v - c = 0
 	
   如果代入Pedersen 承诺维持这个等式平衡，因而：
 
->	i - v - c = 0
->	=> r1*G + i*H - (r2*G + v*H) - (r3*G + c*H) = 0
->	=> (r1-r2-r3)*G+(i - v - c )*H =0
->	=> (r1-r2-r3)*G+0*H = 0
+		i - v - c = 0
+		=> r1*G + i*H - (r2*G + v*H) - (r3*G + c*H) = 0
+		=> (r1-r2-r3)*G+(i - v - c )*H =0
+		=> (r1-r2-r3)*G+0*H = 0
 	
   r1是由A在接收i的时候随机生成的，r2*G需由B提供，r3需由A随机生成；因而MW交易需要在线完成，或者B提供的地址已带r2*G。这里既然r1，r2，r3都是随机生成的，就不可能要求(r1-r2-r3)*G=0，所以我们设r1-r2-r3=kernel_excess：
 	
->	 (r1-r2-r3)*G+0*H = kernel_excess*G +0*H
+		 (r1-r2-r3)*G+0*H = kernel_excess*G +0*H
 	 
   到此，只需要用kernel_excess对交易签名，即可证明i是属于A的；
