@@ -21,13 +21,16 @@
 3功能考量
 ---------------------
 功能和技术的创新和引入必须为设计理念服务，单纯的功能和技术堆彻是没有用的。比特币围绕着去中心化引入了一系列技术如工作量证明和SHA256挖矿、椭圆曲线签名算法、P2P对等网络、默克儿树等，诞生了一个数字货币行业。安网4的设计，也将围绕着上述设计理念来选择和创造所需功能和技术，并且将之有机结合。
- - 安网延续
- - 安网地址
- - 安网资产
- - 智能合约
- - 闪电网络
- - 隐私技术
- - 超级节点
+ - [安网延续](https://github.com/SAFE-anwang/SAFE4/blob/main/legacy.md)
+ - [安网地址](https://github.com/SAFE-anwang/SAFE4/blob/main/addr.md)
+ - [安网资产](https://github.com/SAFE-anwang/SAFE4/blob/main/asset.md)
+ - [智能合约](https://github.com/SAFE-anwang/SAFE4/blob/main/safecode.md)
+ - [闪电网络](https://github.com/SAFE-anwang/SAFE4/blob/main/lighting.md)
+ - [隐私技术](https://github.com/SAFE-anwang/SAFE4/blob/main/privacy.md)
+
+以下内容正在编写中：
+
+ - [超级节点](https://github.com/SAFE-anwang/SAFE4/blob/main/supernode.md)
  - SafeSwap
  - 跨链资产
  - 原子兑换
