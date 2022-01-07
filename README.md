@@ -6,11 +6,11 @@
 
 - SAFE network is a decentralized, secure payment and privacy computing blockchain system focused on privacy protection, which was launched by Singapore SAFE Foundation in October 2014. It has been seven years since then. During this period, it has experienced the iterative replacement of three major versions of DNC 1.0, DNC 2.0 and SAFE 3.0, and made many beneficial explorations in various innovative technologies and commercial applications. Based on cryptography theory and privacy computing, and guided by technology innovation and application innovation.
 
- 安网（SAFE）是由新加坡SAFE基金会于2014年10月推出的、去中心化的、专注安全支付和隐私计算的区块链，距今有近8年历史，期间经历安网1.0、安网2.0、安网3.0等3个大版本的迭代更替，进行了众多技术和应用上的有益探索。
+   安网（SAFE）是由新加坡SAFE基金会于2014年10月推出的、去中心化的、专注安全支付和隐私计算的区块链，距今有近8年历史，期间经历安网1.0、安网2.0、安网3.0等3个大版本的迭代更替，进行了众多技术和应用上的有益探索。
 
 - SAFE 4.0 focuses on privacy protection, strengthens secure payment, optimizes asset privacy, imports cross chain assets and stable currency, creates SAFESwap trading field, expands more commercial applications, and aims to build a global privacy protection ecosystem.
 
- 安网4.0携多年的实践经验和成果，以密码学理论和隐私安全为基础，以技术创新和应用创新为导向，着眼隐私保护，强化安全支付，优化资产隐私，引入跨链资产和稳定币，打造SAFESwap交易场，拓展更多商业化应用，旨在构建一个全球范围的安全支付和隐私保护生态圈。
+   安网4.0携多年的实践经验和成果，以密码学理论和隐私安全为基础，以技术创新和应用创新为导向，着眼隐私保护，强化安全支付，优化资产隐私，引入跨链资产和稳定币，打造SAFESwap交易场，拓展更多商业化应用，旨在构建一个全球范围的安全支付和隐私保护生态圈。
 
 
 2设计理念
@@ -23,7 +23,7 @@
 
 3技术考量
 ---------------------
-功能和技术的创新和引入必须为设计理念服务，单纯的功能和技术堆彻是没有用的。比特币围绕着去中心化引入了一系列技术如工作量证明和SHA256挖矿、椭圆曲线签名算法、P2P对等网络、默克儿树等，诞生了一个数字货币行业。安网4的设计，也将围绕着上述设计理念来选择和创造所需功能和技术，并且将之有机结合。下述的功能和技术正在设计中，随时可能修改：
+    功能和技术的创新和引入必须为设计理念服务，单纯的功能和技术堆彻是没有用的。比特币围绕着去中心化引入了一系列技术如工作量证明和SHA256挖矿、椭圆曲线签名算法、P2P对等网络、默克儿树等，诞生了一个数字货币行业。安网4的设计，也将围绕着上述设计理念来选择和创造所需功能和技术，并且将之有机结合。下述的功能和技术正在设计中，随时可能修改：
 
  - [安网延续](https://github.com/SAFE-anwang/SAFE4/blob/main/legacy.md)
  - [安网地址](https://github.com/SAFE-anwang/SAFE4/blob/main/addr.md)
@@ -32,7 +32,7 @@
  - [闪电网络](https://github.com/SAFE-anwang/SAFE4/blob/main/lighting.md)
  - [隐私技术](https://github.com/SAFE-anwang/SAFE4/blob/main/privacy.md)
 
-以下内容正在编写中：
+   以下内容正在编写中：
 
  - [超级节点](https://github.com/SAFE-anwang/SAFE4/blob/main/supernode.md)
  - SafeSwap
