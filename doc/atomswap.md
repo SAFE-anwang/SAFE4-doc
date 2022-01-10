@@ -8,8 +8,8 @@
     - A确保SAFE钱包有充足金额的SAFE；
     - B准备好充足金额的BTC；
     - B把BTC转入SAFE钱包控制的BTC钱包或地址，以下两个方法都可以：  
-     - 以SAFE钱包连接Bitcoin Core钱包的RPC接口，确保Bitcoin Core钱包中有正确金额的BTC；
-     - 在SAFE钱包中按照BIP39/BIP32标准生成BTC地址，把BTC转入该地址；
+      - 以SAFE钱包连接Bitcoin Core钱包的RPC接口，确保Bitcoin Core钱包中有正确金额的BTC；
+      - 在SAFE钱包中按照BIP39/BIP32标准生成BTC地址，把BTC转入该地址；
 
 2.  订单撮合  
     - A在SAFE钱包的原子兑换功能中发布一个买单，花费x个SAFE，以价格v购买BTC（或B发布一个卖单，以价格v卖出BTC，BTC数量y）, 该买(卖)单发布在SAFE网络上；
