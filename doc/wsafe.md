@@ -13,7 +13,7 @@ SAFE跨链的技术方案
    反之，监控到ETH或BSC主链的wSAFE合约中有用户销毁wSAFE，即在SAFE主链上发送同等数量给该用户提供的SAFE地址；  
    每次操作后，该程序保证：
    
-      资产池中的SAFE金额 - 以SAFE计价扣除的ETH或BSC交易费用 - 以SAFE计价的SAFE主链交易费 = wSAFE@ETH + wSAFE@BSC   
+            资产池中的SAFE金额 - 以SAFE计价扣除的ETH或BSC交易费用  = wSAFE@ETH + wSAFE@BSC   
       
    其中“以SAFE计价扣除的ETH或BSC交易费用“的说明如下：为方便用户使用，开发团队预先垫付ETH交易费；
    但因为ETH、BSC的交易费用太贵，只能是以当时SAFE的价格，把ETH交易费折算成SAFE，在wSAFE总额中扣除。开发团队不在此业务中挣钱，只求不亏本即可；
@@ -31,7 +31,7 @@ SAFE跨链的技术方案
    因为SAFE主链的交易费用非常低廉，SAFE交易费用由开发团队承担。
    
    
-3. 实施SAFE的ERC20合约wSAFE，wSAFE初始金额为0，其他不同接口在于；  
+3. 实施SAFE的ERC20合约wSAFE，wSAFE初始金额为0，其他不同接口在于：  
    - 发行出来的wSAFE总量不可能高过SAFE的流通量（2022年1月10日到达2087万）;
    - SAFE转wSAFE，用户将转账SAFE到资产池（并且附带ETH地址），调用此接口，给该ETH地址发送正确金额的wSAFE（wSAFE金额=转账SAFE金额-以SAFE计的ETH交易费），并且发出转入资产池通知；
    - wSAFE转SAFE，用户调用该接口销毁wSAFE（并且附带SAFE地址），并且发出销毁通知；
