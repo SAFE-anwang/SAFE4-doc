@@ -32,16 +32,16 @@ SAFE跨链的技术方案
    
    
 3. 实施SAFE的ERC20合约wSAFE，wSAFE初始金额为0，其他不同接口在于；  
-  - 发行出来的wSAFE总量不可能高过SAFE的流通量（2022年1月10日到达2087万）;
-  - SAFE转wSAFE，用户将转账SAFE到资产池（并且附带ETH地址），调用此接口，给该ETH地址发送正确金额的wSAFE（wSAFE金额=转账SAFE金额-以SAFE计的ETH交易费），并且发出转入资产池通知；
-  - wSAFE转SAFE，用户调用该接口销毁wSAFE（并且附带SAFE地址），并且发出销毁通知；
+   - 发行出来的wSAFE总量不可能高过SAFE的流通量（2022年1月10日到达2087万）;
+   - SAFE转wSAFE，用户将转账SAFE到资产池（并且附带ETH地址），调用此接口，给该ETH地址发送正确金额的wSAFE（wSAFE金额=转账SAFE金额-以SAFE计的ETH交易费），并且发出转入资产池通知；
+   - wSAFE转SAFE，用户调用该接口销毁wSAFE（并且附带SAFE地址），并且发出销毁通知；
 
 
 4. 具体实施：  
 
   SAFE跨链可通过以下两种具体方式进行：  
 
-  - 通过中心化交易所，此种方式需要交易所的开发支持。中心化交易所向SAFE资产池转账一定数量的SAFE，其指定的ETH地址会收到同样数量的wSAFE；  
-    而用户如需要兑换成wSAFE，只需要从交易所的ETH链提现wSAFE即可；反之，只需向交易所的wSAFE地址充值wSAFE，一定确认数后即可从交易所提现SAFE；  
+   - 通过中心化交易所，此种方式需要交易所的开发支持。中心化交易所向SAFE资产池转账一定数量的SAFE，其指定的ETH地址会收到同样数量的wSAFE；  
+     而用户如需要兑换成wSAFE，只需要从交易所的ETH链提现wSAFE即可；反之，只需向交易所的wSAFE地址充值wSAFE，一定确认数后即可从交易所提现SAFE；  
   
-  - 用户在SafeWallet上操作，需要SafeWallet开发支持。只需指定金额，即可进行双向转换；
+   - 用户在SafeWallet上操作，需要SafeWallet开发支持。只需指定金额，即可进行双向转换；
