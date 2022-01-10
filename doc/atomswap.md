@@ -20,12 +20,12 @@
 3. 兑换过程(针对BTC系币种)  
     - A选择一个随机数X，计算H=HASH160(X),用于创建SAFE交易1；
     - A创建SAFE交易1，TX1@SAFE:"支付v个SAFE给<B的公钥>，如果B签名并且知道X，或者A和B同时签名"；
-    - A创建SAFE交易2，TX2@SAFE:"从TX1@SAFE中支付v个SAFE给<A的公钥>，锁定48小时，需要A签名"；
+    - A创建SAFE交易2，TX2@SAFE:"从TX1@SAFE中支付v个SAFE给<A的公钥>，需要锁定48小时和A签名"；
     - A发送TX2@SAFE给B，B签名后返回A；
     - A发布TX1@SAFE到SAFE网络；
     - B检查TX1@SAFE并且获取H=HASH160(X)，用于创建BTC交易1；
     - B创建BTC交易1，TX1@BTC:"支付w个BTC给<A的公钥>,如果A签名并且知道X，或者A和B同时签名";
-    - B创建BTC交易2，TX2@BTC:"从TX1@BTC中支付w个BTC给<B的公钥>,锁定24小时，需要B签名";
+    - B创建BTC交易2，TX2@BTC:"从TX1@BTC中支付w个BTC给<B的公钥>,需要锁定24小时和B签名";
     - B发送TX2@BTC给A，A签名后返回B；
     - B发布TX1@BTC到BTC网络；
     - A发布新交易花费TX1@BTC交易，从中获得w个BTC，但泄露X；
