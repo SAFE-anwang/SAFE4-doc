@@ -44,3 +44,4 @@
  - SafeSwap
  - 跨链资产
  - 域名系统
+ - SafeWallet
