@@ -35,12 +35,12 @@
  - [智能合约](https://github.com/SAFE-anwang/SAFE4/blob/main/doc/safecode.md)
  - [闪电网络](https://github.com/SAFE-anwang/SAFE4/blob/main/doc/lighting.md)
  - [隐私技术](https://github.com/SAFE-anwang/SAFE4/blob/main/doc/privacy.md)
-
+ - [SAFE跨链](https://github.com/SAFE-anwang/SAFE4/blob/main/doc/wsafe.md)  
+ 
    以下内容正在编写中：
 
  - [超级节点](https://github.com/SAFE-anwang/SAFE4/blob/main/doc/supernode.md)
  - [原子兑换](https://github.com/SAFE-anwang/SAFE4/blob/main/doc/atomswap.md)
- - [SAFE跨链](https://github.com/SAFE-anwang/SAFE4/blob/main/doc/wsafe.md)
  - SafeSwap
  - 跨链资产
  - 域名系统
