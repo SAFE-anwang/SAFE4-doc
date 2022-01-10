@@ -40,7 +40,7 @@
 
  - [超级节点](https://github.com/SAFE-anwang/SAFE4/blob/main/doc/supernode.md)
  - [原子兑换](https://github.com/SAFE-anwang/SAFE4/blob/main/doc/atomswap.md)
+ - [SAFE跨链](https://github.com/SAFE-anwang/SAFE4/blob/main/doc/wsafe.md)
  - SafeSwap
  - 跨链资产
- - SAFE跨链
  - 域名系统
