@@ -8,11 +8,11 @@
 后续开发：  
 
 （1）界面修改：合并交易记录界面至余额界面；新增一个蓝色主题，叫SAFE Blue(SAFE蓝)；  
-（2）SAFE支持：新增SAFE主界面，SAFE线性锁仓，SAFE跨链到ETH和BSC(https://github.com/SAFE-anwang/SAFE4/blob/main/doc/wsafe.md)，后续会再添加；  
-（3）DAPP支持：新增dapp主界面，dapps商店和应用列表，可参考imtoken，把设置中的钱包连接也纳入这里；   
+（2）SAFE支持：新增SAFE主界面，SAFE线性锁仓，[SAFE跨链到ETH和BSC](https://github.com/SAFE-anwang/SAFE4/blob/main/doc/wsafe.md )，后续会再添加；  
+（3）DAPP支持：新增dapp主界面，dapps商店和应用列表，把设置中的"钱包连接"也纳入这里；   
 （4）DEFI强化：uniswap, pancakeswap, 1inch增加添加流动性功能；  
 （5）钱包加密：钱包加密体系修改，使之更安全; 
-（6）钱包导入：可导入各种主流软件钱包和硬件钱包的助记词、私钥、二维码等等，通过钱包名称，助记词、密码、BIP32路径导入；收集大量钱包上述特征，只需对应到钱包名称即可；  
+（6）钱包导入：可导入各种主流软件钱包和硬件钱包的助记词、私钥、二维码等等，收集大量钱包上述特征，导入时只需知道钱包名称即可；  
 （7）接入SafeSwap：接入SAFE在ETH网络、BSC网络与其他币种的兑换SafeSwap（主要功能：嵌入到币种功能中，添加流动性/swap/挖矿)；  
 （8）主流币锁仓：如SAFE、BTC、LTC、ETH、BNB、DASH等锁仓功能，不到时间不能取回，防止剁手；  
 （9）原子兑换： SAFE与所支持的币种之间的原子兑换（暂缓，等技术方案确定再说）；  
