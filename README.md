@@ -44,6 +44,6 @@
 
  - [超级节点](https://github.com/SAFE-anwang/SAFE4/blob/main/doc/supernode.md)
  - SafeSwap
- - 跨链资产
+ - [跨链资产](https://github.com/SAFE-anwang/SAFE4/blob/main/doc/acrosschain.md)
  - 域名系统
  - [SafeWallet](https://github.com/SAFE-anwang/SAFE4/blob/main/doc/SafeWallet.md)
