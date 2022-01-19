@@ -13,6 +13,7 @@ SAFE跨链的技术方案
    - 监控SAFE主链，如发现有用户向资产池转入SAFE，即产生wSAFE发送给用户提供的ETH地址；  
    - 反之，监控到ETH或BSC主链的wSAFE合约中有用户销毁wSAFE，即在SAFE主链上发送同等数量给该用户提供的SAFE地址；  
    每次操作后，该程序保证：
+   
       ```
       资产池中的SAFE金额 - 以SAFE计价扣除的ETH或BSC交易费用  = wSAFE@ETH + wSAFE@BSC   
       ```
