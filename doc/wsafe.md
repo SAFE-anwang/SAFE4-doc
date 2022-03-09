@@ -86,7 +86,7 @@ SAFE跨链的技术方案
    
    以上述标准来计算以SAFE计的ETH交易费用。  
    
-   每次操作后，跨链保证：
+   每次操作后，跨链网关保证：
    
    ```
    资产池中的SAFE金额 - 以SAFE计价扣除的ETH或BSC交易费用  = wSAFE@ETH + wSAFE@BSC   
