@@ -88,7 +88,7 @@ SAFE跨链的技术方案
    
    （1）先获取ETH网络的交易费用 eth_fee，如0.0015；  
    （2）再从ZB上获取ETH和SAFE的USDT价格比 rate，如ETH：3000，SAFE：40；ETH:SAFE=75:1   
-   （3）计算 safe_fee = eth_fee * rate = 0.1125 ，再进位到小数点后1位数，0.1123 => 0.15。  
+   （3）计算 safe_fee = eth_fee * rate = 0.1125 ，小数点后第二位进位到5或者0，0.1123 => 0.15。  
        0.15就是以SAFE计价扣除的ETH交易费用。进位的原因是SAFE网关会提高ETH交易费10%-30%，以便ETH交易能够快速确认。
    
    以上述标准来计算以SAFE计的ETH交易费用。  
