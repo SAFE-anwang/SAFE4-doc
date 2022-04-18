@@ -64,9 +64,9 @@ SAFE跨链的技术方案
    用户转换100个SAFE为wSAFE，SAFE费用为0.4,因而实际上将有99.6个wSAFE到账，0.4个SAFE作为以SAFE计的ETH交易费用扣除；    
    转换10000个，则有9999.4个wSAFE到账，因而转换越多越划算；  
    
-   该实时费用的接口放在safewallet.anwang.com上：safe_fee就是扣除的费用
-   测试网以SAFE计的ETH费用：https://safewallet.anwang.com/v1/price/ropsten
-   主网以SAFE计的ETH费用：  https://safewallet.anwang.com/v1/price/mainnet
+   该实时费用的接口放在safewallet.anwang.com上：safe_fee就是扣除的费用  
+   测试网以SAFE计的ETH费用：https://safewallet.anwang.com/v1/price/ropsten  
+   主网以SAFE计的ETH费用：  https://safewallet.anwang.com/v1/price/mainnet  
    
    具体计算规则见第3点。
    
