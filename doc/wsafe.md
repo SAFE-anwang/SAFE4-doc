@@ -19,7 +19,7 @@ SAFE跨链的技术方案
 
 3. 部署于ETH和BSC的ERC20合约wSAFE：    
    - wSAFE初始金额为0，用户从SAFE主链转SAFE到wSAFE时才会产生wSAFE；  
-   - 发行出来的wSAFE总量不可能高过SAFE的流通量（2022年1月10日到达2087万）;
+   - 发行出来的wSAFE总量不可能高过SAFE的流通量（2022年4月达到2100万）;
    - 接口safe2eth：此接口仅由合约创建者才能调用，SAFE转wSAFE，用户转账SAFE到资产池（并且附带ETH地址），之后由SAFE跨链网关才能调用此接口，给该ETH地址发送正确金额的wSAFE，并且发出转入资产池通知；
    - 接口eth2safe：wSAFE转SAFE，任何用户可调用该接口销毁wSAFE（并且附带SAFE地址），并且发出销毁通知；
 
