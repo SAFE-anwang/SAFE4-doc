@@ -88,7 +88,7 @@ SAFE跨链的技术方案
    以SAFE计价扣除的ETH或BSC交易费用的计算方法：  
    
    （1）先获取ETH网络的交易费用 eth_fee，如0.0015；  
-   （2）再从ZB上获取ETH和SAFE的USDT价格比 rate，如ETH：3000，SAFE：41；ETH:SAFE=75:1   
+   （2）再从ZB上获取ETH和SAFE的USDT价格比 rate，如ETH：3000，SAFE：41；ETH:SAFE=73.17:1   
    （3）计算 safe_fee = eth_fee * rate * 1.1 = 0.1207317 ，小数点保留4位，0.1207317  => 0.1207。  
        0.1207就是以SAFE计价扣除的ETH交易费用。乘以1.1的原因是SAFE网关会提高ETH交易费10%，以便ETH交易能够快速确认。
    
