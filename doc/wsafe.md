@@ -49,7 +49,7 @@ SAFE跨链的技术方案
      用户收到的wSAFE金额如下所示：
      
       ```
-      用户收到的wSAFE金额 - 以SAFE计价扣除的ETHC交易费用  = wSAFE
+      用户收到的wSAFE金额 - 以SAFE计价扣除的ETH交易费用  = wSAFE
       ```  
       
      用户收到的wSAFE金额会少于发送的SAFE金额，是因为SAFE跨链网关向用户ETH地址发送wSAFE需要消耗ETH，ETH的交易费用贵是众所周知的；  
