@@ -1,6 +1,6 @@
 { 
   "name": "SAFESwap Tokenlist", 
-  "logoURI": "https://raw.githubusercontent.com/SAFE-anwang/safe/master/src/qt/res/icons/bitcoin.png", 
+  "logoURI": "https://raw.githubusercontent.com/SAFE-anwang/SAFE4/main/safe32X32.png", 
   "keywords": [ "SAFE", "AnWang"], 
   "timestamp": "2022-05-08T01:40:34.305Z", 
   "tokens": 
@@ -10,7 +10,7 @@
      "name": "SAFE(AnWang)", 
      "symbol": "SAFE", 
      "decimals": 18, 
-     "logoURI": "https://raw.githubusercontent.com/SAFE-anwang/safe/master/src/qt/res/icons/bitcoin.png" 
+     "logoURI": "https://raw.githubusercontent.com/SAFE-anwang/SAFE4/main/safe32X32.png" 
     }
   ], 
   
