@@ -14,7 +14,7 @@
     },
      { "chainId": 3, 
      "address": "0x32885f2FaF83AeeE39e2cfE7F302e3BB884869f4", 
-     "name": "SAFE(AnWang)", 
+     "name": "SAFE(AnWang)ROPSTEN", 
      "symbol": "SAFE", 
      "decimals": 18, 
      "logoURI": "https://raw.githubusercontent.com/SAFE-anwang/SAFE4/main/safe32X32.png" 
