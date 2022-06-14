@@ -18,13 +18,27 @@
      "symbol": "SAFE", 
      "decimals": 18, 
      "logoURI": "https://raw.githubusercontent.com/SAFE-anwang/SAFE4/main/safe32X32.png" 
+    },
+     { "chainId": 56, 
+     "address": "0x4d7fa587ec8e50bd0e9cd837cb4da796f47218a1", 
+     "name": "SAFE(AnWang)", 
+     "symbol": "SAFE", 
+     "decimals": 18, 
+     "logoURI": "https://raw.githubusercontent.com/SAFE-anwang/SAFE4/main/safe32X32.png" 
+    },
+     { "chainId": 97, 
+     "address": "0xa3D8077c3A447049164e60294C892e5E4C7f3aD2", 
+     "name": "SAFE(AnWang)TESTNET", 
+     "symbol": "SAFE", 
+     "decimals": 18, 
+     "logoURI": "https://raw.githubusercontent.com/SAFE-anwang/SAFE4/main/safe32X32.png" 
     }
-  ], 
+], 
   
   "version":
   { 
     "major": 0, 
-    "minor": 2, 
+    "minor": 4, 
     "patch": 0 
   } 
 }
