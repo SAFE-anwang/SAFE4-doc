@@ -89,7 +89,7 @@ SAFE官方PC钱包的发送方式如下图所示：
 说明：  
 （1）用户使用SAFE官方PC钱包、safewallet钱包、交易所SAFE充值地址、其他支持SAFE的钱包都可以收到SAFE；  
 
-### 附录：ETH ropsten测试网重要信息：  
+### 附录：ETH ropsten和BSC testnet测试网重要信息：  
 
 - ETH ropsten测试网仅用于测试目的，其中的wSAFE没任何价值，普通用户不用理会，开发者可以使用它来开发和测试SAFE相关程序；  
 - ETH ropsten测试对应的SAFE资产池地址： [XiY8mw8XXxfkfrgAwgVUs7qQW7vGGFLByx](https://chain.anwang.com/address/XiY8mw8XXxfkfrgAwgVUs7qQW7vGGFLByx)  
