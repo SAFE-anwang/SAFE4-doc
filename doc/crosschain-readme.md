@@ -13,16 +13,19 @@ SAFE跨链是指SAFE币从SAFE主链转到ETH/BSC区块链上，且可回转至S
   合约：https://etherscan.io/token/0xee9c1ea4dcf0aaf4ff2d78b6ff83aa69797b65eb   
 - ETH mainnet safe2eth:10个确认, eth2safe:12个确认；扣除SAFE计的ETH网络费;   
 - ETH mainnet以SAFE计的ETH网络费用实时获取接口：  https://safewallet.anwang.com/v1/gate/mainnet   
-
+  
 - 我们把SAFE转到BSC网络的操作叫safe2bsc，反之叫bsc2safe；  
 - BSC mainnet主网对应的SAFE资产池地址： XdyjRkZpyDdPD3uJAUC3MzJSoCtEZincFf  
 - BSC mainnet主网wSAFE合约地址： 0x4d7fa587ec8e50bd0e9cd837cb4da796f47218a1  
 合约：https://bscscan.com/token/0x4d7fa587ec8e50bd0e9cd837cb4da796f47218a1   
 - BSC mainnet safe2bsc:10个确认, bsc2safe:12个确认；目前无需扣除SAFE;   
 - BSC mainnet以SAFE计的ETH网络费用实时获取接口：  https://safewallet.anwang.com/v1/gate/mainnet  
-
+  
 - 跨链记录查询：https://anwang.com/assetgate.html   
 - SAFE跨链支持钱包SafeWallet永久下载链接：  https://anwang.com/download/safewallet-latest.apk   
+
+![SafeWallet永久下载链接](https://github.com/SAFE-anwang/SAFE4/blob/main/img/1.jpg)
+
 
 ### 1.safe2eth/safe2bsc
 
