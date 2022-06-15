@@ -28,13 +28,13 @@ SAFE跨链是指SAFE币从SAFE主链转到ETH/BSC区块链上，且可回转至S
 
 
 ### 1.safe2eth/safe2bsc
-
+![safe2eth](https://github.com/SAFE-anwang/SAFE4/blob/main/img/2.jpg)
 SAFE转换为wSAFE的流程如上图所示,详细说明如下：  
 #### 1.1 用户向上述资产池地址，发送一定金额的SAFE并且附带ETH/BSC地址  
 说明：  
 （1）发送方式：通过SAFE的官方PC钱包或者safewallet（第一页下载链接）；  
 SAFE官方PC钱包的发送方式如下图所示：  
-
+![safe2eth](https://github.com/SAFE-anwang/SAFE4/blob/main/img/3.jpg)
 （2）资产池地址：必须填写ETH mainnet主网对应的SAFE资产池地址，该地址由基金会控制，仅用于SAFE跨链，SAFE留存金额需大于等于wSAFE合约中的SAFE金额；ETH测试网与ETH主网对应的资产池地址不同；  
 如果发向ETH网络，资产池地址必须是Xnr78kmFtZBWKypYeyDLaaQRLf2EoMSgMV，备注中前4个字节必须是“eth:”,后面跟ETH地址；  
 如果发向BSC网络，资产池地址必须是XdyjRkZpyDdPD3uJAUC3MzJSoCtEZincFf，备注中前4个字节必须是“bsc:”,后面跟BSC地址；  
@@ -69,7 +69,7 @@ SAFE官方PC钱包的发送方式如下图所示：
 （2）用户可使用任何支持ETH/BSC钱包的ETH/BSC地址收到wSAFE,safewallet内置对wSAFE合约的支持，其他钱包必须导入ETH/BSC主网的SAFE合约地址才能看到收到的wSAFE;  
 
 ### 2. eth2safe/bsc2safe  
-
+![eth2safe](https://github.com/SAFE-anwang/SAFE4/blob/main/img/4.jpg)
 #### 2.1用户通过合约销毁wSAFE且带SAFE地址  
 说明：  
 （1）wSAFE合约提供eth2safe/bsc2safe接口，其功能是记录用户的SAFE地址，并且销毁用户指定金额的wSAFE；  
