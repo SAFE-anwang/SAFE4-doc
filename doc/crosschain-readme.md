@@ -1,8 +1,5 @@
 ## SAFE跨链ETH/BSC使用教程v0.2
 
-SAFE Foundation  2022年6月15日  
-
----
 SAFE跨链是指SAFE币从SAFE主链转到ETH/BSC区块链上，且可回转至SAFE主链，让用户充分享受到SAFE在DEFI中带来的更多可能性，我们把ETH/BSC上的SAFE称为Wrapped SAFE，简称wSAFE（仅为了区分，但在合约中体现的币名称还是SAFE）。
 
 ### 0.重要信息
