@@ -8,14 +8,14 @@ SAFE跨链是指SAFE币从SAFE主链转到ETH/BSC区块链上，且可回转至S
 ### 0.重要信息
 
 - 我们把SAFE转到ETH网络的操作叫safe2eth，反之叫eth2safe；  
-- ETH mainnet主网对应的SAFE资产池地址： ![Xnr78kmFtZBWKypYeyDLaaQRLf2EoMSgMV](https://chain.anwang.com/address/Xnr78kmFtZBWKypYeyDLaaQRLf2EoMSgMV)   
-- ETH mainnet主网wSAFE合约地址： ![0xEE9c1Ea4DCF0AAf4Ff2D78B6fF83AA69797B65Eb](https://etherscan.io/token/0xee9c1ea4dcf0aaf4ff2d78b6ff83aa69797b65eb)   
+- ETH mainnet主网对应的SAFE资产池地址： [Xnr78kmFtZBWKypYeyDLaaQRLf2EoMSgMV](https://chain.anwang.com/address/Xnr78kmFtZBWKypYeyDLaaQRLf2EoMSgMV)   
+- ETH mainnet主网wSAFE合约地址： [0xEE9c1Ea4DCF0AAf4Ff2D78B6fF83AA69797B65Eb](https://etherscan.io/token/0xee9c1ea4dcf0aaf4ff2d78b6ff83aa69797b65eb)   
 - ETH mainnet safe2eth:10个确认, eth2safe:12个确认；扣除SAFE计的ETH网络费;   
 - ETH mainnet以SAFE计的ETH网络费用实时获取接口：  https://safewallet.anwang.com/v1/gate/mainnet   
   
 - 我们把SAFE转到BSC网络的操作叫safe2bsc，反之叫bsc2safe；  
-- BSC mainnet主网对应的SAFE资产池地址： ![XdyjRkZpyDdPD3uJAUC3MzJSoCtEZincFf](https://chain.anwang.com/address/XdyjRkZpyDdPD3uJAUC3MzJSoCtEZincFf)
-- BSC mainnet主网wSAFE合约地址： ![0x4d7fa587ec8e50bd0e9cd837cb4da796f47218a1](https://bscscan.com/token/0x4d7fa587ec8e50bd0e9cd837cb4da796f47218a1)   
+- BSC mainnet主网对应的SAFE资产池地址： [XdyjRkZpyDdPD3uJAUC3MzJSoCtEZincFf](https://chain.anwang.com/address/XdyjRkZpyDdPD3uJAUC3MzJSoCtEZincFf)
+- BSC mainnet主网wSAFE合约地址： [0x4d7fa587ec8e50bd0e9cd837cb4da796f47218a1](https://bscscan.com/token/0x4d7fa587ec8e50bd0e9cd837cb4da796f47218a1)   
 - BSC mainnet safe2bsc:10个确认, bsc2safe:12个确认；目前无需扣除SAFE;   
 - BSC mainnet以SAFE计的ETH网络费用实时获取接口：  https://safewallet.anwang.com/v1/gate/mainnet  
   
@@ -95,14 +95,14 @@ SAFE官方PC钱包的发送方式如下图所示：
 ### 附录：ETH ropsten测试网重要信息：  
 
 - ETH ropsten测试网仅用于测试目的，其中的wSAFE没任何价值，普通用户不用理会，开发者可以使用它来开发和测试SAFE相关程序；  
-- ETH ropsten测试对应的SAFE资产池地址： ![XiY8mw8XXxfkfrgAwgVUs7qQW7vGGFLByx](https://chain.anwang.com/address/XiY8mw8XXxfkfrgAwgVUs7qQW7vGGFLByx)  
-- ETH ropsten测试wSAFE合约地址： ![0x32885f2FaF83AeeE39e2cfE7F302e3BB884869f4](https://etherscan.io/token/0x32885f2FaF83AeeE39e2cfE7F302e3BB884869f4) 
+- ETH ropsten测试对应的SAFE资产池地址： [XiY8mw8XXxfkfrgAwgVUs7qQW7vGGFLByx](https://chain.anwang.com/address/XiY8mw8XXxfkfrgAwgVUs7qQW7vGGFLByx)  
+- ETH ropsten测试wSAFE合约地址： [0x32885f2FaF83AeeE39e2cfE7F302e3BB884869f4](https://etherscan.io/token/0x32885f2FaF83AeeE39e2cfE7F302e3BB884869f4) 
 - ETH ropsten safe2eth:3个确认，eth2safe:3个确认；不扣SAFE计的ETH网络费用  
 - ETH ropsten以SAFE计的ETH费用：https://safewallet.anwang.com/v1/gate/testnet  
   
 - BSC testnet测试网重要信息：  
-- BSC testnet测试网对应的SAFE资产池地址： ![Xm3DvW7ZpmCYtyhtPSu5iYQknpofseVxaF](https://chain.anwang.com/address/Xm3DvW7ZpmCYtyhtPSu5iYQknpofseVxaF)  
-- BSC testnet测试wSAFE合约地址：   ![0xa3D8077c3A447049164e60294C892e5E4C7f3aD2](https://bscscan.com/token/0xa3D8077c3A447049164e60294C892e5E4C7f3aD2)
+- BSC testnet测试网对应的SAFE资产池地址： [Xm3DvW7ZpmCYtyhtPSu5iYQknpofseVxaF](https://chain.anwang.com/address/Xm3DvW7ZpmCYtyhtPSu5iYQknpofseVxaF)  
+- BSC testnet测试wSAFE合约地址：   [0xa3D8077c3A447049164e60294C892e5E4C7f3aD2](https://bscscan.com/token/0xa3D8077c3A447049164e60294C892e5E4C7f3aD2)
 - BSC testnet safe2eth:3个确认，eth2safe:3个确认；不扣SAFE计的ETH网络费  
 - BSC testnet以SAFE计的ETH费用：https://safewallet.anwang.com/v1/gate/testnet    
   
