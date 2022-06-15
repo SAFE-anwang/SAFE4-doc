@@ -40,8 +40,9 @@ SAFE官方PC钱包的发送方式如下图所示：
 ![safe2eth](https://github.com/SAFE-anwang/SAFE4/blob/main/img/3.jpg)  
   
 （2）资产池地址：必须填写ETH mainnet主网对应的SAFE资产池地址，该地址由基金会控制，仅用于SAFE跨链，SAFE留存金额需大于等于wSAFE合约中的SAFE金额；ETH测试网与ETH主网对应的资产池地址不同；  
-如果发向ETH网络，资产池地址必须是Xnr78kmFtZBWKypYeyDLaaQRLf2EoMSgMV，备注中前4个字节必须是“eth:”,后面跟ETH地址；  
-如果发向BSC网络，资产池地址必须是XdyjRkZpyDdPD3uJAUC3MzJSoCtEZincFf，备注中前4个字节必须是“bsc:”,后面跟BSC地址；  
+
+  如果发向ETH网络，资产池地址必须是Xnr78kmFtZBWKypYeyDLaaQRLf2EoMSgMV，备注中前4个字节必须是“eth:”,后面跟ETH地址；  
+  如果发向BSC网络，资产池地址必须是XdyjRkZpyDdPD3uJAUC3MzJSoCtEZincFf，备注中前4个字节必须是“bsc:”,后面跟BSC地址；  
 
 （3）发送金额：一般最小金额不能小于2个SAFE，否则可能不够ETH网络费用，此种情况下，会等待至ETH网络费用下降至小于发送金额才会发送，不予以退还；  
 
