@@ -1,11 +1,11 @@
-##SAFE跨链ETH/BSC使用教程v0.2
+## SAFE跨链ETH/BSC使用教程v0.2
 
 SAFE Foundation  2022年6月15日  
 
 ---
 SAFE跨链是指SAFE币从SAFE主链转到ETH/BSC区块链上，且可回转至SAFE主链，让用户充分享受到SAFE在DEFI中带来的更多可能性，我们把ETH/BSC上的SAFE称为Wrapped SAFE，简称wSAFE（仅为了区分，但在合约中体现的币名称还是SAFE）。
 
-###0.重要信息
+### 0.重要信息
 
 - 我们把SAFE转到ETH网络的操作叫safe2eth，反之叫eth2safe；  
 - ETH mainnet主网对应的SAFE资产池地址： Xnr78kmFtZBWKypYeyDLaaQRLf2EoMSgMV  
@@ -24,10 +24,10 @@ SAFE跨链是指SAFE币从SAFE主链转到ETH/BSC区块链上，且可回转至S
 - 跨链记录查询：https://anwang.com/assetgate.html   
 - SAFE跨链支持钱包SafeWallet永久下载链接：  https://anwang.com/download/safewallet-latest.apk   
 
-###1.safe2eth/safe2bsc
+### 1.safe2eth/safe2bsc
 
 SAFE转换为wSAFE的流程如上图所示,详细说明如下：  
-####1.1 用户向上述资产池地址，发送一定金额的SAFE并且附带ETH/BSC地址  
+#### 1.1 用户向上述资产池地址，发送一定金额的SAFE并且附带ETH/BSC地址  
 说明：  
 （1）发送方式：通过SAFE的官方PC钱包或者safewallet（第一页下载链接）；  
 SAFE官方PC钱包的发送方式如下图所示：  
@@ -42,7 +42,7 @@ SAFE官方PC钱包的发送方式如下图所示：
 
 （5）不能使用交易所提现的方式，不能使用不支持SAFE跨链的钱包转SAFE给资产池地址，这种情况下不会附带用户ETH地址，损失自负；  
 
-####1.2 SAFE跨链网关通过ETH/BSC网络向用户ETH/BSC地址发送wSAFE  
+#### 1.2 SAFE跨链网关通过ETH/BSC网络向用户ETH/BSC地址发送wSAFE  
 说明：  
 （1）SAFE跨链网关收到SAFE达到10个确认数之后，才会向对应的ETH/BSC地址发送wSAFE；ETH主网  safe2eth/safe2bsc操作要达到10个确认，eth2safe/bsc2safe操作要达到12个确认，目的是为了保证资产安全。  
 
@@ -61,31 +61,31 @@ SAFE官方PC钱包的发送方式如下图所示：
 （5）当发送wSAFE交易后，2小时内不确认，跨链网关会重发；  
 （6）可在上述重要信息的主网wSAFE合约地址中查看用户交易是否发出；  
 
-####1.3 用户收到wSAFE  
+#### 1.3 用户收到wSAFE  
 说明：  
 （1）当SAFE跨链网关以高于10%网络费的交易发送wSAFE时，确认速度应该很快；  
 （2）用户可使用任何支持ETH/BSC钱包的ETH/BSC地址收到wSAFE,safewallet内置对wSAFE合约的支持，其他钱包必须导入ETH/BSC主网的SAFE合约地址才能看到收到的wSAFE;  
 
-###2. eth2safe/bsc2safe  
+### 2. eth2safe/bsc2safe  
 
-####2.1用户通过合约销毁wSAFE且带SAFE地址  
+#### 2.1用户通过合约销毁wSAFE且带SAFE地址  
 说明：  
 （1）wSAFE合约提供eth2safe/bsc2safe接口，其功能是记录用户的SAFE地址，并且销毁用户指定金额的wSAFE；  
 （2）用户只能销毁自己的wSAFE，销毁wSAFE事件会通知给SAFE跨链网关；  
 （3）销毁金额：ETH/BSC网络费用由用户自己支付，因而如果金额太小，ETH网络费用会远大于SAFE金额的价值，因而SAFE金额多一些更合适；  
 （4）操作方法：safewallet已经发布，第一页下载链接下载；  
  
-####2.2跨链网关通过SAFE网络发送SAFE给用户  
+#### 2.2跨链网关通过SAFE网络发送SAFE给用户  
 说明：  
 （1）跨链网关使用资产池中的SAFE发送给用户，且零钱也同样回归到资产池地址，方便用户验证金额；  
 （2）跨链网关在eth2safe/bsc2safe操作中，不收取任何费用，SAFE网络费也由跨链网关支付；  
 （3）需要等ETH销毁wSAFE的交易到达12个确认后，才会发送SAFE；  
 
-####2.3用户收到SAFE  
+#### 2.3用户收到SAFE  
 说明：  
 （1）用户使用SAFE官方PC钱包、safewallet钱包、交易所SAFE充值地址、其他支持SAFE的钱包都可以收到SAFE；  
 
-###附录：ETH ropsten测试网重要信息：  
+### 附录：ETH ropsten测试网重要信息：  
 
 - ETH ropsten测试网仅用于测试目的，其中的wSAFE没任何价值，普通用户不用理会，开发者可以使用它来开发和测试SAFE相关程序；  
 - ETH ropsten测试对应的SAFE资产池地址： XiY8mw8XXxfkfrgAwgVUs7qQW7vGGFLByx  
