@@ -50,8 +50,7 @@ SAFE官方PC钱包的发送方式如下图所示：
 
 - 先获取ETH网络的网络费用 eth_fee，如0.0015；  
 - 再从ZB上获取ETH和SAFE的USDT价格比 rate，如ETH：3000，SAFE：41；ETH:SAFE=73.17:1  
-- 计算 safe_fee = eth_fee * rate * 1.1 = 0.1207317 ，小数点保留4位，0.1207317 => 0.1207。  
-- 0.1207就是以SAFE计价扣除的ETH网络费用。乘以1.1的原因是SAFE网关会提高ETH网络费10%，以便ETH交易能够快速确认。  
+- 计算 safe_fee = eth_fee * rate * 1.1 = 0.1207317 ，小数点保留4位，0.1207317 => 0.1207。 0.1207就是以SAFE计价扣除的ETH网络费用。乘以1.1的原因是SAFE网关会提高ETH网络费10%，以便ETH交易能够快速确认。  
 - 此费用每30秒计算一次，因而可能会有所滞后。  
 - 获得以SAFE计的ETH网络费用的最简单方法是,在浏览器中打开费用获取接口：https://safewallet.anwang.com/v1/gate/mainnet  
 返回的json文本中第一个safe_fee后面就是以SAFE计的ETH网络费。  
