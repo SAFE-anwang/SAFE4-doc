@@ -39,11 +39,12 @@
  - [隐私技术](https://github.com/SAFE-anwang/SAFE4/blob/main/doc/privacy.md)
  - [SAFE跨链](https://github.com/SAFE-anwang/SAFE4/blob/main/doc/wsafe.md)  - [SAFE跨链指南](https://github.com/SAFE-anwang/SAFE4/blob/main/doc/crosschain-readme.md) 
  - [原子兑换](https://github.com/SAFE-anwang/SAFE4/blob/main/doc/atomswap.md)
-  
+ - [SafeWallet](https://github.com/SAFE-anwang/SAFE4/blob/main/doc/SafeWallet.md)  
+   
    以下内容正在编写中：
 
  - [超级节点](https://github.com/SAFE-anwang/SAFE4/blob/main/doc/supernode.md)
  - SafeSwap
  - [跨链资产](https://github.com/SAFE-anwang/SAFE4/blob/main/doc/acrosschain.md)
  - 域名系统
- - [SafeWallet](https://github.com/SAFE-anwang/SAFE4/blob/main/doc/SafeWallet.md)
+
