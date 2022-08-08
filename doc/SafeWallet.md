@@ -41,7 +41,7 @@
 （6）7月底主流币锁仓；  
 （7）8月底原子兑换；  
 
-**2022年6月2日SafeWallet开发规划调整：  
+###2022年6月2日SafeWallet开发规划调整：  
 
 （1）6月新增SAFE跨链BSC，pancakeswap上兑换SAFE，ETH上支持uniswap V3兑换，官方twitter放第一页关注之后；解决新建钱包从当前区块开始；  
 （2）7月新增线性锁仓、节点锁仓，新增DAPP列表；  
