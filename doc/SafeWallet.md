@@ -55,4 +55,6 @@
 （2）06-01新增电报群、新增VPN连接（解决VPN连接稳定性、闪退等问题）、新增SAFE与SAFE ERC20互换、解决SAFE节点连接稳定性问题、解决语言问题、解决多子钱包串交易记录问题；  
 （3）06-22新增首页显示安网推特内容；新增跨链到BSC；新增pancakeswap买卖SAFE。解决新建钱包数据同步从当前区块开始问题，更新btc浏览器接口；  
 （4）08-05新增线性锁仓和查看锁仓记录；新增DAPP列表和Dapp与钱包连接及操作支持；解决BSC->SAFE需依赖于ETH的问题；  
+（5）08-15新增safe专区增加各种实用url：safe合约，uniswap，pancakeswap，跨链浏览器，safe@coingecko,safe bep20@coingecko,safe@coinmarketcap; 新增eth接口多账号访问；   
+    优化vpn服务；优化safe价格来源；优化dapp显示；解决线性锁仓时间不大于120月；   
  
