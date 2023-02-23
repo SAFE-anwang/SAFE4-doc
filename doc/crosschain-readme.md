@@ -19,12 +19,12 @@ SAFE跨链是指SAFE币从SAFE主链转到ETH/BSC区块链上，且可回转至S
 - 跨链记录查询：https://anwang.com/assetgate.html   
 - SAFE跨链支持钱包SafeWallet永久下载链接：  https://anwang.com/download/safewallet-latest.apk   
 
-![SafeWallet永久下载链接](https://github.com/SAFE-anwang/SAFE4/blob/main/img/1.jpg)
+![SafeWallet永久下载链接](https://github.com/SAFE-anwang/SAFE4-doc/blob/main/img/1.jpg)
   
   
 ### 1.safe2eth/safe2bsc
   
-![safe2eth](https://github.com/SAFE-anwang/SAFE4/blob/main/img/2.jpg)  
+![safe2eth](https://github.com/SAFE-anwang/SAFE4-doc/blob/main/img/2.jpg)  
   
 SAFE转换为wSAFE的流程如上图所示,详细说明如下：  
 #### 1.1 用户向上述资产池地址，发送一定金额的SAFE并且附带ETH/BSC地址  
@@ -32,7 +32,7 @@ SAFE转换为wSAFE的流程如上图所示,详细说明如下：
 （1）发送方式：通过SAFE的官方PC钱包或者safewallet（第一页下载链接）；  
 SAFE官方PC钱包的发送方式如下图所示：  
   
-![safe2eth](https://github.com/SAFE-anwang/SAFE4/blob/main/img/3.jpg)  
+![safe2eth](https://github.com/SAFE-anwang/SAFE4-doc/blob/main/img/3.jpg)  
   
 （2）资产池地址：必须填写ETH mainnet主网对应的SAFE资产池地址，该地址由基金会控制，仅用于SAFE跨链，SAFE留存金额需大于等于wSAFE合约中的SAFE金额；ETH测试网与ETH主网对应的资产池地址不同；  
 
@@ -70,7 +70,7 @@ SAFE官方PC钱包的发送方式如下图所示：
 
 ### 2. eth2safe/bsc2safe  
   
-![eth2safe](https://github.com/SAFE-anwang/SAFE4/blob/main/img/4.jpg)  
+![eth2safe](https://github.com/SAFE-anwang/SAFE4-doc/blob/main/img/4.jpg)  
   
 #### 2.1用户通过合约销毁wSAFE且带SAFE地址  
 说明：  
