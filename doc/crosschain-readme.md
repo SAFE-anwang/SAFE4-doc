@@ -1,6 +1,6 @@
-## SAFE跨链ETH/BSC使用教程v0.2
+## SAFE跨链ETH/BSC/MATIC使用教程v0.3
 
-SAFE跨链是指SAFE币从SAFE主链转到ETH/BSC区块链上，且可回转至SAFE主链，让用户充分享受到SAFE在DEFI中带来的更多可能性，我们把ETH/BSC上的SAFE称为Wrapped SAFE，简称wSAFE（仅为了区分，但在合约中体现的币名称还是SAFE）。
+SAFE跨链是指SAFE币从SAFE主链转到ETH/BSC/MATIC区块链上，且可回转至SAFE主链，让用户充分享受到SAFE在DEFI中带来的更多可能性，我们把ETH/BSC/MATIC上的SAFE称为Wrapped SAFE，简称wSAFE（仅为了区分，但在合约中体现的币名称还是SAFE）。
 
 ### 0.重要信息
 
@@ -88,7 +88,7 @@ SAFE官方PC钱包的发送方式如下图所示：
 说明：  
 （1）用户使用SAFE官方PC钱包、safewallet钱包、交易所SAFE充值地址、其他支持SAFE的钱包都可以收到SAFE；  
 
-### 附录：ETH ropsten和BSC testnet测试网重要信息：  (<font color="#660000">目前以下测试网已经关闭，直接使用正式网即可</font>)  
+### 附录：ETH ropsten和BSC testnet测试网重要信息：  (<font color="#dd0000">目前以下测试网已经关闭，直接使用正式网即可</font>)  
 
 - ETH ropsten测试网仅用于测试目的，其中的wSAFE没任何价值，普通用户不用理会，开发者可以使用它来开发和测试SAFE相关程序；  
 - ETH ropsten测试对应的SAFE资产池地址： [XiY8mw8XXxfkfrgAwgVUs7qQW7vGGFLByx](https://chain.anwang.com/address/XiY8mw8XXxfkfrgAwgVUs7qQW7vGGFLByx)  
