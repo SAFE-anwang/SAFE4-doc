@@ -31,20 +31,20 @@
 
 &emsp;&emsp;下述的功能和技术正在设计中，随时可能修改：
 
- - [安网延续](https://github.com/SAFE-anwang/SAFE4/blob/main/doc/legacy.md)
- - [安网地址](https://github.com/SAFE-anwang/SAFE4/blob/main/doc/addr.md)
- - [安网资产](https://github.com/SAFE-anwang/SAFE4/blob/main/doc/asset.md)
- - [智能合约](https://github.com/SAFE-anwang/SAFE4/blob/main/doc/safecode.md)
- - [闪电网络](https://github.com/SAFE-anwang/SAFE4/blob/main/doc/lighting.md)
- - [隐私技术](https://github.com/SAFE-anwang/SAFE4/blob/main/doc/privacy.md)
- - [SAFE跨链](https://github.com/SAFE-anwang/SAFE4/blob/main/doc/wsafe.md)  - [SAFE跨链指南v0.3-新增Matic](https://github.com/SAFE-anwang/SAFE4/blob/main/doc/crosschain-readme.md) 
- - [原子兑换](https://github.com/SAFE-anwang/SAFE4/blob/main/doc/atomswap.md)
- - [SafeWallet](https://github.com/SAFE-anwang/SAFE4/blob/main/doc/SafeWallet.md)  
+ - [安网延续](https://github.com/SAFE-anwang/SAFE4-doc/blob/main/doc/legacy.md)
+ - [安网地址](https://github.com/SAFE-anwang/SAFE4-doc/blob/main/doc/addr.md)
+ - [安网资产](https://github.com/SAFE-anwang/SAFE4-doc/blob/main/doc/asset.md)
+ - [智能合约](https://github.com/SAFE-anwang/SAFE4-doc/blob/main/doc/safecode.md)
+ - [闪电网络](https://github.com/SAFE-anwang/SAFE4-doc/blob/main/doc/lighting.md)
+ - [隐私技术](https://github.com/SAFE-anwang/SAFE4-doc/blob/main/doc/privacy.md)
+ - [SAFE跨链](https://github.com/SAFE-anwang/SAFE4-doc/blob/main/doc/wsafe.md)  - [SAFE跨链指南v0.3-新增Matic](https://github.com/SAFE-anwang/SAFE4-doc/blob/main/doc/crosschain-readme.md) 
+ - [原子兑换](https://github.com/SAFE-anwang/SAFE4-doc/blob/main/doc/atomswap.md)
+ - [SafeWallet](https://github.com/SAFE-anwang/SAFE4-doc/blob/main/doc/SafeWallet.md)  
    
    以下内容正在编写中：
 
- - [超级节点](https://github.com/SAFE-anwang/SAFE4/blob/main/doc/supernode.md)
+ - [超级节点](https://github.com/SAFE-anwang/SAFE4-doc/blob/main/doc/supernode.md)
  - SafeSwap
- - [跨链资产](https://github.com/SAFE-anwang/SAFE4/blob/main/doc/acrosschain.md)
+ - [跨链资产](https://github.com/SAFE-anwang/SAFE4-doc/blob/main/doc/acrosschain.md)
  - 域名系统
 
