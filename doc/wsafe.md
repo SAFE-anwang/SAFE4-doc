@@ -1,4 +1,4 @@
-SAFE跨链 (此技术已经实现，[使用指南](https://github.com/SAFE-anwang/SAFE4/blob/main/doc/crosschain-readme.md) )
+SAFE跨链 (此技术已经实现，[SAFE跨链使用指南](https://github.com/SAFE-anwang/SAFE4-doc/blob/main/doc/crosschain-readme.md) )
 
 SAFE跨链是指SAFE币从SAFE主链转到ETH、BSC等其他区块链上，让用户充分享受到SAFE在DEFI中带来的更多可能性。   
 我们把ETH、BSC上的SAFE称为Wrapped SAFE，简称wSAFE。   
