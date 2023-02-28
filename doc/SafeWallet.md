@@ -15,7 +15,7 @@
 开发计划：  
 
 （1）界面修改：合并交易记录界面至余额界面；新增一个蓝色主题，叫SAFE Blue(SAFE蓝)；  
-（2）SAFE支持：新增SAFE主界面，SAFE线性锁仓，[SAFE跨链到ETH和BSC](https://github.com/SAFE-anwang/SAFE4/blob/main/doc/wsafe.md )，后续再添加其他SAFE相关功能；  
+（2）SAFE支持：新增SAFE主界面，SAFE线性锁仓，[SAFE跨链到ETH和BSC](https://github.com/SAFE-anwang/SAFE4-doc/blob/main/doc/wsafe.md )，后续再添加其他SAFE相关功能；  
 （3）DAPP支持：新增dapp主界面，dapps商店和应用列表，把设置中的"钱包连接"也纳入这里；   
 （4）DEFI强化：uniswap, pancakeswap, 1inch增加添加流动性功能；  
 （5）钱包加密：钱包加密体系修改，使之更安全; 助记词和对应密码不应该被存贮在手机上，应该删除；保存加密后的种子即可；  
