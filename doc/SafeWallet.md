@@ -77,6 +77,23 @@
     4. 支持Solana，ZCash、polygon等公链;  
     5. 还有些其他的功能的修改，如交易记录等; 
     
+   (10) Safewallet Updates v0.28.0.1.0302:
+    1. Added SAFE blue theme;
+    2. Added custom URL on the Dapp page;
+    3. Supported SAFE block synchronization rollback;
+    4. Optimized currency management interface;
+    5. Resolved losing wallets under wallet management;
+    6. Modified the gas fee.
+
+  (11) SafeWallet Updates v0.28.0.1.0330b:  
+    1. Support safe<=>matic cross-chain functionality;  
+    2. Support BCH, DASH, and LTC lock-up features;  
+    3. Support wallet recovery with Chinese mnemonic phrases;  
+    4. Resolve the issue of doubled transaction amount display;  
+    5. Support DApp wallet browser to retain historical access records;  
+    6. Optimize VPN on/off state management;  
+    7. Optimize display effects under the Safe blue background.  
+
    2023年2月14日研发规划：   
    
 一、v0.28.0.1.02.XX功能： 
